@@ -58,7 +58,7 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 197772160
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1073741824
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_JANKY_BACKBUFFER := true
-TARGET_PREBUILT_KERNEL := device/moto/daytona/kernel
+TARGET_PREBUILT_KERNEL := device/motorola/daytona/kernel
 TARGET_USERIMAGES_USE_EXT4 := false
 # Below is a sample of how you can tweak the mount points using the board config.
 BOARD_HAS_NO_MISC_PARTITION := true

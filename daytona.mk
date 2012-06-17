@@ -127,25 +127,25 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/motorola/daytona/prebuilts/etc/vold.fstab:system/etc/vold.fstab \
     device/motorola/daytona/init.vsnet:system/bin/init.vsnet \
-    device/motorola/daytona/scripts/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
-    device/motorola/daytona/prebuilts/liba2dp.so:system/lib/liba2dp.so \
+    device/motorola/daytona/prebuilts/scripts/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh \
+    device/motorola/daytona/prebuilts/lib/liba2dp.so:system/lib/liba2dp.so \
     #device/motorola/daytona/config/media_profiles.xml:system/etc/media_profiles.xml \
 
 #keyboard files
 PRODUCT_COPY_FILES += \
-    device/motorola/daytona/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
-    device/motorola/daytona/keychars/tegra-kbc.kcm.bin:system/usr/keychars/tegra-kbc.kcm.bin \
-    device/motorola/daytona/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
-    device/motorola/daytona/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    device/motorola/daytona/keylayout/qtouch-obp-ts.kl:system/usr/keylayout/qtouch-obp-ts.kl \
+    device/motorola/daytona/prebuilts/keylayout/tegra-kbc.kl:system/usr/keylayout/tegra-kbc.kl \
+    device/motorola/daytona/prebuilts/keychars/tegra-kbc.kcm.bin:system/usr/keychars/tegra-kbc.kcm.bin \
+    device/motorola/daytona/prebuilts/keylayout/qwerty.kl:system/usr/keylayout/qwerty.kl \
+    device/motorola/daytona/prebuilts/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
+    device/motorola/daytona/prebuilts/keylayout/qtouch-obp-ts.kl:system/usr/keylayout/qtouch-obp-ts.kl \
     device/motorola/daytona/prebuilts/idc/qtouch-obp-ts.idc:system/usr/idc/qtouch-obp-ts.idc \
-    device/motorola/daytona/keylayout/Motorola_Mobility_Motorola_HD_Dock.kl:system/usr/keylayout/Motorola_Mobility_Motorola_HD_Dock.kl \
-    device/motorola/daytona/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
-    device/motorola/daytona/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
-    device/motorola/daytona/keylayout/usb_keyboard_102_en_us.kl:system/usr/keylayout/usb_keyboard_102_en_us.kl \
-    device/motorola/daytona/keychars/usb_keyboard_102_en_us.kcm.bin:system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
-    device/motorola/daytona/keylayout/usb_keyboard_102_en_us.kl:system/usr/keylayout/Motorola_Bluetooth_Wireless_Keyboard.kl \
-    device/motorola/daytona/keychars/usb_keyboard_102_en_us.kcm.bin:system/usr/keychars/Motorola_Bluetooth_Wireless_Keyboard.kcm.bin
+    device/motorola/daytona/prebuilts/keylayout/Motorola_Mobility_Motorola_HD_Dock.kl:system/usr/keylayout/Motorola_Mobility_Motorola_HD_Dock.kl \
+    device/motorola/daytona/prebuilts/keylayout/cpcap-key.kl:system/usr/keylayout/cpcap-key.kl \
+    device/motorola/daytona/prebuilts/keylayout/evfwd.kl:system/usr/keylayout/evfwd.kl \
+    device/motorola/daytona/prebuilts/keylayout/usb_keyboard_102_en_us.kl:system/usr/keylayout/usb_keyboard_102_en_us.kl \
+    device/motorola/daytona/prebuilts/keychars/usb_keyboard_102_en_us.kcm.bin:system/usr/keychars/usb_keyboard_102_en_us.kcm.bin \
+    device/motorola/daytona/prebuilts/keylayout/usb_keyboard_102_en_us.kl:system/usr/keylayout/Motorola_Bluetooth_Wireless_Keyboard.kl \
+    device/motorola/daytona/prebuilts/keychars/usb_keyboard_102_en_us.kcm.bin:system/usr/keychars/Motorola_Bluetooth_Wireless_Keyboard.kcm.bin
 
 # Permission files
 PRODUCT_COPY_FILES += \
