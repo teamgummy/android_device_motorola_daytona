@@ -23,6 +23,7 @@
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 DEVICE_PACKAGE_OVERLAYS += device/motorola/daytona/overlay
+DEVICE_PREBUILT := device/motorola/daytona/prebuilt
 
 ## (1) First, the most specific values, i.e. the aspects that are specific to CDMA
 # Rootfs
