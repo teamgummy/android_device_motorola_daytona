@@ -176,6 +176,6 @@ $(call inherit-product-if-exists, vendor/motorola/daytona/daytona-vendor.mk)
 
 $(call inherit-product, build/target/product/full_base_telephony.mk)
 
-PRODUCT_NAME := Gummy_daytona
+PRODUCT_NAME := generic_daytona
 PRODUCT_DEVICE := daytona
 PRODUCT_MODEL := MB870
